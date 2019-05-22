@@ -5,7 +5,7 @@
 #include "confighive.h"
 #include "ui_confighive.h"
 #include "updatehive.h"
-#include "ui_updatehive.h"
+
 #include "requestinfo.h"
 #include "../ControlPackage/controller.h"
 #include "requestinfoonehive.h"
