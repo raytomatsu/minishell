@@ -1,0 +1,10 @@
+Deliverable no.1
+
+Part 3 looks good, with clear instructions.
+
+The low grade is due to the readme missing a part 4. I expect you didn't finish part 4 because you were waiting for UDP. You shouldn't do this in a software development project – instead you should make a small amount of correctly formatted data yourself, use that to help develop part 4, and then plug in the data from part 3 when it becomes available.
+
+Code looks good (double for loop, priority queue).
+
+Grade: 2.5/5 (subject to improvement, once you show me your simulation code is more developed)
+

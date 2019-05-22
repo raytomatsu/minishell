@@ -1,0 +1,1726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		5E618435888B9D49F8540165 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Qmake";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control -f Control.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = "0";
+		};
+		325EAB7854D8896550072B34 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/Control/main.cpp";
+			name = "main.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0533F6A4171B1FEB79528A6C = {
+			fileRef = "325EAB7854D8896550072B34";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		051FB8A8ED88D091D42A7D03 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/GUIPackage/mainwindow.cpp";
+			name = "mainwindow.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0E6476099EE039818C2BF1A8 = {
+			fileRef = "051FB8A8ED88D091D42A7D03";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5B40B3213BFD0E5348722D26 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/GUIPackage/hiveowner.cpp";
+			name = "hiveowner.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		5B6BD2C17397B7299E843CB3 = {
+			fileRef = "5B40B3213BFD0E5348722D26";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		933F45E273E2E903A20E1E2D = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/GUIPackage/researcher.cpp";
+			name = "researcher.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D371AC367051C5C1195E8E97 = {
+			fileRef = "933F45E273E2E903A20E1E2D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E5B380DD1F9B81C6244A6B98 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/GUIPackage/requestinfo.cpp";
+			name = "requestinfo.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8507CD0B4FD930BF881C14EE = {
+			fileRef = "E5B380DD1F9B81C6244A6B98";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FB0C2AB83D1587A91D66F16D = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/GUIPackage/confighive.cpp";
+			name = "confighive.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B64578EA5BC686D51DEF3992 = {
+			fileRef = "FB0C2AB83D1587A91D66F16D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		219FEF45172D21EA3C9F0163 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/GUIPackage/updatehive.cpp";
+			name = "updatehive.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B864BA569CB78D92FB25FE64 = {
+			fileRef = "219FEF45172D21EA3C9F0163";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		2C0F971A60725D105D6E4559 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/DBPackage/dbtool.cpp";
+			name = "dbtool.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A94C5C8CF59D7E438665F578 = {
+			fileRef = "2C0F971A60725D105D6E4559";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		17263600B3DC41401184652D = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/DBPackage/dbtable.cpp";
+			name = "dbtable.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8E3B8D68050B5B9301C4D144 = {
+			fileRef = "17263600B3DC41401184652D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B879D99AB2EC39E9FF3D6DCF = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/DBPackage/dbhive.cpp";
+			name = "dbhive.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C1911B0A40F8D950E84FBBDC = {
+			fileRef = "B879D99AB2EC39E9FF3D6DCF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C2F790E48C9DE50A4B4A1BAC = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/DBPackage/dbconfiguration.cpp";
+			name = "dbconfiguration.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F48418B597DC3ECD88115470 = {
+			fileRef = "C2F790E48C9DE50A4B4A1BAC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		2C084E3C8A7E3EF3569D296F = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/Controlpackage/sense.cpp";
+			name = "sense.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		12C24EA8D259AB061BBAB99F = {
+			fileRef = "2C084E3C8A7E3EF3569D296F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1D82D28D7242C9D3008263FB = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/Controlpackage/hive.cpp";
+			name = "hive.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		28E1F9D72CDB92AFA7B76114 = {
+			fileRef = "1D82D28D7242C9D3008263FB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		00D12D5ECC47BFC3E7BA501D = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/Controlpackage/controller.cpp";
+			name = "controller.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		149D0DEC97AB1C613DA9F4E3 = {
+			fileRef = "00D12D5ECC47BFC3E7BA501D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E936EB6C16486E7B99745736 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/Controlpackage/query.cpp";
+			name = "query.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		FAF8A06B88297C7C00497BC4 = {
+			fileRef = "E936EB6C16486E7B99745736";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DA82906B2E10108D4F3DA644 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/Controlpackage/event.cpp";
+			name = "event.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D52AEC18AB57FECD119E2A07 = {
+			fileRef = "DA82906B2E10108D4F3DA644";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		275FF0522FF9341DD287E3FF = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/Controlpackage/hivecontainer.cpp";
+			name = "hivecontainer.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		11E1F52C1FB90C4D96EDE397 = {
+			fileRef = "275FF0522FF9341DD287E3FF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		49CDB18B0E7CCEEB0ACF1FF0 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/Controlpackage/activitycontainer.cpp";
+			name = "activitycontainer.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F10DC477F80CCE36AC25A896 = {
+			fileRef = "49CDB18B0E7CCEEB0ACF1FF0";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		00FE8890A7F29B046EDB16CD = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/Controlpackage/activity.cpp";
+			name = "activity.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		871C9B0F207D3A84152FB394 = {
+			fileRef = "00FE8890A7F29B046EDB16CD";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8CB1B8B8E0167413124109C7 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/Controlpackage/decoder.cpp";
+			name = "decoder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1671C4D610A2CFAA56685B0A = {
+			fileRef = "8CB1B8B8E0167413124109C7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EF250E0D01C1A2A197CE8ED7 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control/control_plugin_import.cpp";
+			name = "control_plugin_import.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		868CEC199F23699F1F472503 = {
+			fileRef = "EF250E0D01C1A2A197CE8ED7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4BB9D7C41525636A6ADCF12C = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control/moc_mainwindow.cpp";
+			name = "moc_mainwindow.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		87A631A8B919834F55566DA6 = {
+			fileRef = "4BB9D7C41525636A6ADCF12C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9BEA86C0DEEA5A5E77C20750 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control/moc_hiveowner.cpp";
+			name = "moc_hiveowner.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		FAFDE7CEFDD014B54AAD9926 = {
+			fileRef = "9BEA86C0DEEA5A5E77C20750";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		917A4C53869C95512C45A08A = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control/moc_researcher.cpp";
+			name = "moc_researcher.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		80F935B8847064350071B10A = {
+			fileRef = "917A4C53869C95512C45A08A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		50D5A9B3B163BA143EA9F220 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control/moc_requestinfo.cpp";
+			name = "moc_requestinfo.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F3BADE76CEE5A461700359A4 = {
+			fileRef = "50D5A9B3B163BA143EA9F220";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E1E19057F6EBF95E84D46A55 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control/moc_confighive.cpp";
+			name = "moc_confighive.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		EE607F8EC2F82A27B717A504 = {
+			fileRef = "E1E19057F6EBF95E84D46A55";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		00ED0730DAA6EDFE250B720B = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control/moc_updatehive.cpp";
+			name = "moc_updatehive.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6467E2299CCDEEE2D34D0EE0 = {
+			fileRef = "00ED0730DAA6EDFE250B720B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B52A4735CEAE79F6B1B38AF4 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control/ui_mainwindow.h";
+			name = "ui_mainwindow.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		EE6A9DC1F3C90B1A7889950E = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control/ui_hiveowner.h";
+			name = "ui_hiveowner.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		894E300EF4E63DFC720E6FB8 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control/ui_researcher.h";
+			name = "ui_researcher.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A67BA0255E643DEB0741B987 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control/ui_requestinfo.h";
+			name = "ui_requestinfo.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		62D650ADC7E5143D56C46B30 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control/ui_confighive.h";
+			name = "ui_confighive.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E8270480D19C14FD779FCD62 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control/ui_updatehive.h";
+			name = "ui_updatehive.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		52C58A35A53AAFDFD75704FF = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/GUIPackage/mainwindow.h";
+			name = "mainwindow.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		089C523D4C268463DAC5E5C7 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/GUIPackage/hiveowner.h";
+			name = "hiveowner.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		46A36849EEADAE81B42B184B = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/GUIPackage/researcher.h";
+			name = "researcher.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		28C195F4028F1BDC0C9F7625 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/GUIPackage/requestinfo.h";
+			name = "requestinfo.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9929ED7D07D14B8A426728DD = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/GUIPackage/confighive.h";
+			name = "confighive.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6B9A45881052BD5291C8542E = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/GUIPackage/updatehive.h";
+			name = "updatehive.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		84A1A450AE306F9944282D34 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/DBPackage/dbtool.h";
+			name = "dbtool.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		917497B6A50D7BE6769FB627 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/DBPackage/dbtable.h";
+			name = "dbtable.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A2DA7CF21667565CC6A1489A = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/DBPackage/dbhive.h";
+			name = "dbhive.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		54734ECA928EF38739597351 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/DBPackage/dbconfiguration.h";
+			name = "dbconfiguration.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		0A0767822719D76FDB70AAD3 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/Controlpackage/sense.h";
+			name = "sense.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		36D3613170FE041C63043F92 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/Controlpackage/hive.h";
+			name = "hive.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		CD1AA54586F64331E4394CDD = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/Controlpackage/controller.h";
+			name = "controller.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		AF1D737D45DC69B23464CB5C = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/Controlpackage/query.h";
+			name = "query.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		91EF405A5677533002C0B888 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/Controlpackage/event.h";
+			name = "event.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8DE550D3F63843ECF34E08E9 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/Controlpackage/hivecontainer.h";
+			name = "hivecontainer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		DBE74163AE59FE516942060A = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/Controlpackage/activitycontainer.h";
+			name = "activitycontainer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A742CFCF7582BA45E0EBD56F = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/Controlpackage/activity.h";
+			name = "activity.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A9A763773DA9BC149B18E481 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/Controlpackage/decoder.h";
+			name = "decoder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		CE8C91E4F405194EBC66AE17 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/GUIPackage/mainwindow.ui";
+			name = "mainwindow.ui";
+			sourceTree = "<absolute>";
+		};
+		1A33A50EA9F628994894C9B0 = {
+			fileRef = "CE8C91E4F405194EBC66AE17";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1AADA8B891C0B194A839EF15 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/GUIPackage/hiveowner.ui";
+			name = "hiveowner.ui";
+			sourceTree = "<absolute>";
+		};
+		67C78FAC64DA0B71ACF986B9 = {
+			fileRef = "1AADA8B891C0B194A839EF15";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CB7D7466C1AC4FA4CC55A3D9 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/GUIPackage/researcher.ui";
+			name = "researcher.ui";
+			sourceTree = "<absolute>";
+		};
+		888FBA7D3B919E9166520C3E = {
+			fileRef = "CB7D7466C1AC4FA4CC55A3D9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0570B921EE2FABF93599D076 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/GUIPackage/requestinfo.ui";
+			name = "requestinfo.ui";
+			sourceTree = "<absolute>";
+		};
+		7812D8BA449240689A340F02 = {
+			fileRef = "0570B921EE2FABF93599D076";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B03194A374605FFDAD07EEB3 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/GUIPackage/confighive.ui";
+			name = "confighive.ui";
+			sourceTree = "<absolute>";
+		};
+		A6A175CB228B7C2C6FA5E03E = {
+			fileRef = "B03194A374605FFDAD07EEB3";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C2AE21042416AC5FCD0C26C7 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/GUIPackage/updatehive.ui";
+			name = "updatehive.ui";
+			sourceTree = "<absolute>";
+		};
+		309822A70B4E515A8030A851 = {
+			fileRef = "C2AE21042416AC5FCD0C26C7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		2FEB6C4682D5D6CFF1824783 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control/Control.pro";
+			name = "Control.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		C40458D036CA808AF209ED82 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/.qmake.stash";
+			name = ".qmake.stash";
+			sourceTree = "<absolute>";
+		};
+		E1053E76638642BA68C2E687 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/BeeProject/Control/Control.pro";
+			name = "Control.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		25B08E2869634E9BCBA333A2 = {
+			isa = PBXGroup;
+			children = (
+				"EF250E0D01C1A2A197CE8ED7",
+				"4BB9D7C41525636A6ADCF12C",
+				"9BEA86C0DEEA5A5E77C20750",
+				"917A4C53869C95512C45A08A",
+				"50D5A9B3B163BA143EA9F220",
+				"E1E19057F6EBF95E84D46A55",
+				"00ED0730DAA6EDFE250B720B",
+				"B52A4735CEAE79F6B1B38AF4",
+				"EE6A9DC1F3C90B1A7889950E",
+				"894E300EF4E63DFC720E6FB8",
+				"A67BA0255E643DEB0741B987",
+				"62D650ADC7E5143D56C46B30",
+				"E8270480D19C14FD779FCD62");
+			name = "Generated Sources";
+			sourceTree = "<group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 = {
+			isa = PBXGroup;
+			children = (
+				"325EAB7854D8896550072B34",
+				"051FB8A8ED88D091D42A7D03",
+				"5B40B3213BFD0E5348722D26",
+				"933F45E273E2E903A20E1E2D",
+				"E5B380DD1F9B81C6244A6B98",
+				"FB0C2AB83D1587A91D66F16D",
+				"219FEF45172D21EA3C9F0163",
+				"2C0F971A60725D105D6E4559",
+				"17263600B3DC41401184652D",
+				"B879D99AB2EC39E9FF3D6DCF",
+				"C2F790E48C9DE50A4B4A1BAC",
+				"2C084E3C8A7E3EF3569D296F",
+				"1D82D28D7242C9D3008263FB",
+				"00D12D5ECC47BFC3E7BA501D",
+				"E936EB6C16486E7B99745736",
+				"DA82906B2E10108D4F3DA644",
+				"275FF0522FF9341DD287E3FF",
+				"49CDB18B0E7CCEEB0ACF1FF0",
+				"00FE8890A7F29B046EDB16CD",
+				"8CB1B8B8E0167413124109C7",
+				"52C58A35A53AAFDFD75704FF",
+				"089C523D4C268463DAC5E5C7",
+				"46A36849EEADAE81B42B184B",
+				"28C195F4028F1BDC0C9F7625",
+				"9929ED7D07D14B8A426728DD",
+				"6B9A45881052BD5291C8542E",
+				"84A1A450AE306F9944282D34",
+				"917497B6A50D7BE6769FB627",
+				"A2DA7CF21667565CC6A1489A",
+				"54734ECA928EF38739597351",
+				"0A0767822719D76FDB70AAD3",
+				"36D3613170FE041C63043F92",
+				"CD1AA54586F64331E4394CDD",
+				"AF1D737D45DC69B23464CB5C",
+				"91EF405A5677533002C0B888",
+				"8DE550D3F63843ECF34E08E9",
+				"DBE74163AE59FE516942060A",
+				"A742CFCF7582BA45E0EBD56F",
+				"A9A763773DA9BC149B18E481");
+			name = "Sources";
+			sourceTree = "<group>";
+		};
+		12E908B8A1C3C07C115504F5 = {
+			isa = PBXGroup;
+			children = (
+				"CE8C91E4F405194EBC66AE17",
+				"1AADA8B891C0B194A839EF15",
+				"CB7D7466C1AC4FA4CC55A3D9",
+				"0570B921EE2FABF93599D076",
+				"B03194A374605FFDAD07EEB3",
+				"C2AE21042416AC5FCD0C26C7");
+			name = "Sources [uic]";
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 = {
+			isa = PBXGroup;
+			children = (
+				"2FEB6C4682D5D6CFF1824783",
+				"C40458D036CA808AF209ED82",
+				"E1053E76638642BA68C2E687");
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EF0942E79C014DCEC8976BC = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Preprocessors";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control -f Control.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = "0";
+		};
+		F7E50F631C51CD5B5DC0BC43 = {
+			buildActionMask = 2147483647;
+			files = (
+				"0533F6A4171B1FEB79528A6C",
+				"0E6476099EE039818C2BF1A8",
+				"5B6BD2C17397B7299E843CB3",
+				"D371AC367051C5C1195E8E97",
+				"8507CD0B4FD930BF881C14EE",
+				"B64578EA5BC686D51DEF3992",
+				"B864BA569CB78D92FB25FE64",
+				"A94C5C8CF59D7E438665F578",
+				"8E3B8D68050B5B9301C4D144",
+				"C1911B0A40F8D950E84FBBDC",
+				"F48418B597DC3ECD88115470",
+				"12C24EA8D259AB061BBAB99F",
+				"28E1F9D72CDB92AFA7B76114",
+				"149D0DEC97AB1C613DA9F4E3",
+				"FAF8A06B88297C7C00497BC4",
+				"D52AEC18AB57FECD119E2A07",
+				"11E1F52C1FB90C4D96EDE397",
+				"F10DC477F80CCE36AC25A896",
+				"871C9B0F207D3A84152FB394",
+				"1671C4D610A2CFAA56685B0A",
+				"868CEC199F23699F1F472503",
+				"87A631A8B919834F55566DA6",
+				"FAFDE7CEFDD014B54AAD9926",
+				"80F935B8847064350071B10A",
+				"F3BADE76CEE5A461700359A4",
+				"EE607F8EC2F82A27B717A504",
+				"6467E2299CCDEEE2D34D0EE0");
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Compile Sources";
+		};
+		FCC237CA5AD60B9BA4447615 = {
+			isa = PBXFileReference;
+			name = "Foundation.framework";
+			path = "/System/Library/Frameworks/Foundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F26454630C80841CBDCFE1CA = {
+			fileRef = "FCC237CA5AD60B9BA4447615";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7EC00404ACD5AB0E97726B0E = {
+			isa = PBXFileReference;
+			name = "QuartzCore.framework";
+			path = "/System/Library/Frameworks/QuartzCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		B460F624007324313696BE86 = {
+			fileRef = "7EC00404ACD5AB0E97726B0E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C44131FDCFEF4396B9EA2BA = {
+			isa = PBXFileReference;
+			name = "AudioToolbox.framework";
+			path = "/System/Library/Frameworks/AudioToolbox.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		4EB68D0C8182BCE33529C421 = {
+			fileRef = "3C44131FDCFEF4396B9EA2BA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4D765E1B1EA6C757220C63E7 = {
+			isa = PBXFileReference;
+			name = "CoreFoundation.framework";
+			path = "/System/Library/Frameworks/CoreFoundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F8B465CE34D8DF87AAE95913 = {
+			fileRef = "4D765E1B1EA6C757220C63E7";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6AE3EC31EE5BB1FCEE84137C = {
+			isa = PBXFileReference;
+			name = "CoreGraphics.framework";
+			path = "/System/Library/Frameworks/CoreGraphics.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		0CE02722F00CAD43741297B5 = {
+			fileRef = "6AE3EC31EE5BB1FCEE84137C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7D7B02101166B76FD2D4F8B4 = {
+			isa = PBXFileReference;
+			name = "CoreText.framework";
+			path = "/System/Library/Frameworks/CoreText.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		2B02D9DC58A01E45248DDBCE = {
+			fileRef = "7D7B02101166B76FD2D4F8B4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3A8EF9C62A8D4790CBB89CEA = {
+			isa = PBXFileReference;
+			name = "ImageIO.framework";
+			path = "/System/Library/Frameworks/ImageIO.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		61EEC397DC8556BF8C4E36A7 = {
+			fileRef = "3A8EF9C62A8D4790CBB89CEA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EE45FDC3A98E49FE9C9E100D = {
+			isa = PBXFileReference;
+			name = "qios";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/plugins/platforms/libqios$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		83B9BCC8EAA7D9A4B424A0C1 = {
+			fileRef = "EE45FDC3A98E49FE9C9E100D";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		03C5664AF39DB51B5923C494 = {
+			isa = PBXFileReference;
+			name = "Qt5FontDatabaseSupport";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/lib/libQt5FontDatabaseSupport$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		13026B7BEEE198A99899ED11 = {
+			fileRef = "03C5664AF39DB51B5923C494";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		429DD7F4659A7B56723E5306 = {
+			isa = PBXFileReference;
+			name = "libqtfreetype_debug.a";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/lib/libqtfreetype_debug.a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1446AC584A0FB1333CCD7472 = {
+			fileRef = "429DD7F4659A7B56723E5306";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		60748A1C6BB992ED00562742 = {
+			isa = PBXFileReference;
+			name = "Qt5GraphicsSupport";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/lib/libQt5GraphicsSupport$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		E97F075EDD03A68CCA98DD22 = {
+			fileRef = "60748A1C6BB992ED00562742";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		905A8B69D7377F58F58ADBAB = {
+			isa = PBXFileReference;
+			name = "Qt5ClipboardSupport";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/lib/libQt5ClipboardSupport$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		199878B00C14D84625F8D5B0 = {
+			fileRef = "905A8B69D7377F58F58ADBAB";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9D142586FAF9B806308D15BE = {
+			isa = PBXFileReference;
+			name = "qgif";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/plugins/imageformats/libqgif$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4B85D7A16A1B84CE94C5E8E4 = {
+			fileRef = "9D142586FAF9B806308D15BE";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8326DBA96DEB9F41B244732D = {
+			isa = PBXFileReference;
+			name = "qicns";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/plugins/imageformats/libqicns$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		27FE5ACC7539D5D8F54E9D53 = {
+			fileRef = "8326DBA96DEB9F41B244732D";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		28C98B30430DD437872226D4 = {
+			isa = PBXFileReference;
+			name = "qico";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/plugins/imageformats/libqico$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		6A7374EA34A14F0E360620E5 = {
+			fileRef = "28C98B30430DD437872226D4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B1B38B3FEF73F8123EC16624 = {
+			isa = PBXFileReference;
+			name = "qjpeg";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/plugins/imageformats/libqjpeg$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		92B13A97C942FA8961D018D5 = {
+			fileRef = "B1B38B3FEF73F8123EC16624";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9725FD1E1662530BB5227896 = {
+			isa = PBXFileReference;
+			name = "qmacheif";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/plugins/imageformats/libqmacheif$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		474A4EB00FA24BA0129968C1 = {
+			fileRef = "9725FD1E1662530BB5227896";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		97066AEA6112FDD49627F9EB = {
+			isa = PBXFileReference;
+			name = "qmacjp2";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/plugins/imageformats/libqmacjp2$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		6C30380EF1A3EA37D152781F = {
+			fileRef = "97066AEA6112FDD49627F9EB";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		449BA5E13F0DA66AEC98AC87 = {
+			isa = PBXFileReference;
+			name = "qtga";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/plugins/imageformats/libqtga$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4F9100F142335778BC7CA42C = {
+			fileRef = "449BA5E13F0DA66AEC98AC87";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		E85837A251A6259FE43E9162 = {
+			isa = PBXFileReference;
+			name = "qtiff";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/plugins/imageformats/libqtiff$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		517CB4A527CA6493285A52E4 = {
+			fileRef = "E85837A251A6259FE43E9162";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		40DF33407F411A0C11FDF23B = {
+			isa = PBXFileReference;
+			name = "qwbmp";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/plugins/imageformats/libqwbmp$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		141CE0328AAF472874E22F1B = {
+			fileRef = "40DF33407F411A0C11FDF23B";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AD82C3A373E7079C7C79C21F = {
+			isa = PBXFileReference;
+			name = "qwebp";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/plugins/imageformats/libqwebp$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1E81BDE97B5B60948B4D00BF = {
+			fileRef = "AD82C3A373E7079C7C79C21F";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B4134E366EFC6678067AFC4D = {
+			isa = PBXFileReference;
+			name = "qgenericbearer";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/plugins/bearer/libqgenericbearer$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		7A9D465D7E79C2CD14907D2E = {
+			fileRef = "B4134E366EFC6678067AFC4D";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		205259EEEE2BADA5E64741E3 = {
+			isa = PBXFileReference;
+			name = "Security.framework";
+			path = "/System/Library/Frameworks/Security.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		15364689D2AB5A30E87A689F = {
+			fileRef = "205259EEEE2BADA5E64741E3";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		04EA35D85F87C0B2D97AA6C1 = {
+			isa = PBXFileReference;
+			name = "Qt5Widgets";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/lib/libQt5Widgets$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		97792C8437F05DD7EA9432F0 = {
+			fileRef = "04EA35D85F87C0B2D97AA6C1";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		E5D7C5B482F02BB3A8AC95E7 = {
+			isa = PBXFileReference;
+			name = "Qt5Gui";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/lib/libQt5Gui$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		05C8FAB499445A27B6A6C9D5 = {
+			fileRef = "E5D7C5B482F02BB3A8AC95E7";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		59A56F5EEA297EC551CFEF69 = {
+			isa = PBXFileReference;
+			name = "libqtlibpng_debug.a";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/lib/libqtlibpng_debug.a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		CE083DD7CC7412D86BBC7258 = {
+			fileRef = "59A56F5EEA297EC551CFEF69";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EACD342D6B1481ED3C5DB7F3 = {
+			isa = PBXFileReference;
+			name = "libqtharfbuzz_debug.a";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/lib/libqtharfbuzz_debug.a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		BF74C93932E0AF5472F3697F = {
+			fileRef = "EACD342D6B1481ED3C5DB7F3";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3A838FFC7823338D9863EC36 = {
+			isa = PBXFileReference;
+			name = "Qt5Network";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/lib/libQt5Network$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		98E1C9AE485140215B1CC2EF = {
+			fileRef = "3A838FFC7823338D9863EC36";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		922ABC56446079C648034B50 = {
+			isa = PBXFileReference;
+			name = "Qt5Core";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/lib/libQt5Core$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		DE032C946796B3265F061FA3 = {
+			fileRef = "922ABC56446079C648034B50";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A700D869F05880517818071A = {
+			isa = PBXFileReference;
+			name = "libqtpcre2_debug.a";
+			path = "/Users/raytomatsu/Qt/5.12.1/ios/lib/libqtpcre2_debug.a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		45631688CB9C021C5C7CDF8B = {
+			fileRef = "A700D869F05880517818071A";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AF39DD055C3EF8226FBE929D = {
+			children = (
+				"FCC237CA5AD60B9BA4447615",
+				"7EC00404ACD5AB0E97726B0E",
+				"3C44131FDCFEF4396B9EA2BA",
+				"4D765E1B1EA6C757220C63E7",
+				"6AE3EC31EE5BB1FCEE84137C",
+				"7D7B02101166B76FD2D4F8B4",
+				"3A8EF9C62A8D4790CBB89CEA",
+				"EE45FDC3A98E49FE9C9E100D",
+				"03C5664AF39DB51B5923C494",
+				"429DD7F4659A7B56723E5306",
+				"60748A1C6BB992ED00562742",
+				"905A8B69D7377F58F58ADBAB",
+				"9D142586FAF9B806308D15BE",
+				"8326DBA96DEB9F41B244732D",
+				"28C98B30430DD437872226D4",
+				"B1B38B3FEF73F8123EC16624",
+				"9725FD1E1662530BB5227896",
+				"97066AEA6112FDD49627F9EB",
+				"449BA5E13F0DA66AEC98AC87",
+				"E85837A251A6259FE43E9162",
+				"40DF33407F411A0C11FDF23B",
+				"AD82C3A373E7079C7C79C21F",
+				"B4134E366EFC6678067AFC4D",
+				"205259EEEE2BADA5E64741E3",
+				"04EA35D85F87C0B2D97AA6C1",
+				"E5D7C5B482F02BB3A8AC95E7",
+				"59A56F5EEA297EC551CFEF69",
+				"EACD342D6B1481ED3C5DB7F3",
+				"3A838FFC7823338D9863EC36",
+				"922ABC56446079C648034B50",
+				"A700D869F05880517818071A");
+			isa = PBXGroup;
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		D1C883685E82D5676953459A = {
+			buildActionMask = 2147483647;
+			files = (
+				"F26454630C80841CBDCFE1CA",
+				"B460F624007324313696BE86",
+				"4EB68D0C8182BCE33529C421",
+				"F8B465CE34D8DF87AAE95913",
+				"0CE02722F00CAD43741297B5",
+				"2B02D9DC58A01E45248DDBCE",
+				"61EEC397DC8556BF8C4E36A7",
+				"83B9BCC8EAA7D9A4B424A0C1",
+				"13026B7BEEE198A99899ED11",
+				"1446AC584A0FB1333CCD7472",
+				"E97F075EDD03A68CCA98DD22",
+				"199878B00C14D84625F8D5B0",
+				"4B85D7A16A1B84CE94C5E8E4",
+				"27FE5ACC7539D5D8F54E9D53",
+				"6A7374EA34A14F0E360620E5",
+				"92B13A97C942FA8961D018D5",
+				"474A4EB00FA24BA0129968C1",
+				"6C30380EF1A3EA37D152781F",
+				"4F9100F142335778BC7CA42C",
+				"517CB4A527CA6493285A52E4",
+				"141CE0328AAF472874E22F1B",
+				"1E81BDE97B5B60948B4D00BF",
+				"7A9D465D7E79C2CD14907D2E",
+				"15364689D2AB5A30E87A689F",
+				"97792C8437F05DD7EA9432F0",
+				"05C8FAB499445A27B6A6C9D5",
+				"CE083DD7CC7412D86BBC7258",
+				"BF74C93932E0AF5472F3697F",
+				"98E1C9AE485140215B1CC2EF",
+				"DE032C946796B3265F061FA3",
+				"45631688CB9C021C5C7CDF8B");
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Link Binary With Libraries";
+		};
+		1CDFB99948D5420806F1B3C2 = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control/Control.xcodeproj/Default-568h@2x.png";
+			name = "Default-568h@2x.png";
+			sourceTree = "<absolute>";
+		};
+		1D74EF940936631FB3AA8BF9 = {
+			fileRef = "1CDFB99948D5420806F1B3C2";
+			isa = PBXBuildFile;
+		};
+		19CBAB44F4E8CD32642CCA7B = {
+			isa = PBXFileReference;
+			path = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control/Control.xcodeproj/LaunchScreen.xib";
+			name = "LaunchScreen.xib";
+			sourceTree = "<absolute>";
+		};
+		51BD9E74224E8F3639697E5D = {
+			fileRef = "19CBAB44F4E8CD32642CCA7B";
+			isa = PBXBuildFile;
+		};
+		858FCAB0EB1F29CF8B07677C = {
+			children = (
+				"1CDFB99948D5420806F1B3C2",
+				"19CBAB44F4E8CD32642CCA7B");
+			isa = PBXGroup;
+			name = "Bundle Data";
+			sourceTree = "<group>";
+		};
+		30414803F31797EB689AE508 = {
+			buildActionMask = 2147483647;
+			files = (
+				"1D74EF940936631FB3AA8BF9",
+				"51BD9E74224E8F3639697E5D");
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Copy Bundle Resources";
+		};
+		99542592E9780B9225F24AA8 = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE7E47D5C5556C1BAF94D34 = {
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = "wrapper.application";
+			path = "Control.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE0A091FDBFB3E9C31B7A1BD = {
+			children = (
+				"4EE7E47D5C5556C1BAF94D34");
+			isa = PBXGroup;
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		E8C543AB96796ECAA2E65C57 = {
+			children = (
+				"2EB56BE3C2D93CDAB0C52E67",
+				"25B08E2869634E9BCBA333A2",
+				"12E908B8A1C3C07C115504F5",
+				"74B182DB50CB5611B5C1C297",
+				"AF39DD055C3EF8226FBE929D",
+				"858FCAB0EB1F29CF8B07677C",
+				"FE0A091FDBFB3E9C31B7A1BD");
+			isa = PBXGroup;
+			name = "Control";
+			sourceTree = "<group>";
+		};
+		035F81DCED8C04318CC9B31D = {
+			buildPhases = (
+				"5E618435888B9D49F8540165",
+				"7EF0942E79C014DCEC8976BC");
+			dependencies = (
+				);
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXAggregateTarget;
+			buildRules = (
+);
+			productName = "Qt Preprocess";
+			name = "Qt Preprocess";
+		};
+		42BF25640722407240E6D81C = {
+			isa = PBXTargetDependency;
+			target = "035F81DCED8C04318CC9B31D";
+		};
+		3FEAD01DDD32F8AE03E83763 = {
+			buildPhases = (
+				"F7E50F631C51CD5B5DC0BC43",
+				"D1C883685E82D5676953459A",
+				"30414803F31797EB689AE508",
+				"99542592E9780B9225F24AA8");
+			dependencies = (
+				"42BF25640722407240E6D81C");
+			productReference = "4EE7E47D5C5556C1BAF94D34";
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXNativeTarget;
+			buildRules = (
+);
+			productType = "com.apple.product-type.application";
+			name = "Control";
+			productName = "Control";
+		};
+		3AA6C32AC930069E80220CF1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ENABLE_BITCODE = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "Control";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control/.xcode";
+				CONFIGURATION_BUILD_DIR = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "11.0";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"../../BeeProject/Control",
+					".",
+					"../../../../Qt/5.12.1/ios/mkspecs/common/uikit",
+					"../../../../Qt/5.12.1/ios/include",
+					"../../../../Qt/5.12.1/ios/include/QtWidgets",
+					"../../../../Qt/5.12.1/ios/include/QtGui",
+					"../../../../Qt/5.12.1/ios/include/QtNetwork",
+					"../../../../Qt/5.12.1/ios/include/QtCore",
+					".",
+					".",
+					"../../../../Qt/5.12.1/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/raytomatsu/Qt/5.12.1/ios/plugins/platforms",
+					"/System/Library/Frameworks/",
+					"/Users/raytomatsu/Qt/5.12.1/ios/lib",
+					"/Users/raytomatsu/Qt/5.12.1/ios/plugins/imageformats",
+					"/Users/raytomatsu/Qt/5.12.1/ios/plugins/bearer");
+				FRAMEWORK_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wall",
+					"-W",
+					"-ffunction-sections",
+					"-fdata-sections",
+					"-fPIC",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_QML_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-g",
+					"-std=gnu++11",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wall",
+					"-W",
+					"-ffunction-sections",
+					"-fdata-sections",
+					"-fPIC",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_QML_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-stdlib=libc++",
+						"-Wl,-e,_qt_main_wrapper",
+						"-Wl,-dead_strip",
+						"-Wl,-rpath,@executable_path/Frameworks",
+						"-l",
+						"sqlite3",
+						"-L/Users/raytomatsu/Qt/5.12.1/ios/plugins/platforms",
+						"-framework",
+						"UIKit",
+						"-framework",
+						"AssetsLibrary",
+						"-L/Users/raytomatsu/Qt/5.12.1/ios/lib",
+						"-framework",
+						"MobileCoreServices",
+						"-framework",
+						"OpenGLES",
+						"-L/Users/raytomatsu/Qt/5.12.1/ios/plugins/imageformats",
+						"-L/Users/raytomatsu/Qt/5.12.1/ios/plugins/bearer",
+						"-lm");
+				ARCHS = "arm64 x86_64";
+			};
+			name = "Debug";
+		};
+		77418F46922677BB04ED38DD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ENABLE_BITCODE = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "Control";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "Control";
+			};
+			name = "Debug";
+		};
+		339EE1B2CC4FC24589A0EA95 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				ENABLE_BITCODE = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "Control";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control/.xcode";
+				CONFIGURATION_BUILD_DIR = "/Users/raytomatsu/Documents/repo_bergerb_fawcettm_shawcw_tomatsur/build-BeeProject-Qt_5_12_1_for_iOS-Debug/Control/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "11.0";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"../../BeeProject/Control",
+					".",
+					"../../../../Qt/5.12.1/ios/mkspecs/common/uikit",
+					"../../../../Qt/5.12.1/ios/include",
+					"../../../../Qt/5.12.1/ios/include/QtWidgets",
+					"../../../../Qt/5.12.1/ios/include/QtGui",
+					"../../../../Qt/5.12.1/ios/include/QtNetwork",
+					"../../../../Qt/5.12.1/ios/include/QtCore",
+					".",
+					".",
+					"../../../../Qt/5.12.1/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/raytomatsu/Qt/5.12.1/ios/plugins/platforms",
+					"/System/Library/Frameworks/",
+					"/Users/raytomatsu/Qt/5.12.1/ios/lib",
+					"/Users/raytomatsu/Qt/5.12.1/ios/plugins/imageformats",
+					"/Users/raytomatsu/Qt/5.12.1/ios/plugins/bearer");
+				FRAMEWORK_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wall",
+					"-W",
+					"-ffunction-sections",
+					"-fdata-sections",
+					"-fPIC",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_QML_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-g",
+					"-std=gnu++11",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wall",
+					"-W",
+					"-ffunction-sections",
+					"-fdata-sections",
+					"-fPIC",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_QML_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-stdlib=libc++",
+						"-Wl,-e,_qt_main_wrapper",
+						"-Wl,-dead_strip",
+						"-Wl,-rpath,@executable_path/Frameworks",
+						"-l",
+						"sqlite3",
+						"-L/Users/raytomatsu/Qt/5.12.1/ios/plugins/platforms",
+						"-framework",
+						"UIKit",
+						"-framework",
+						"AssetsLibrary",
+						"-L/Users/raytomatsu/Qt/5.12.1/ios/lib",
+						"-framework",
+						"MobileCoreServices",
+						"-framework",
+						"OpenGLES",
+						"-L/Users/raytomatsu/Qt/5.12.1/ios/plugins/imageformats",
+						"-L/Users/raytomatsu/Qt/5.12.1/ios/plugins/bearer",
+						"-lm");
+				ARCHS = "arm64 x86_64";
+			};
+			name = "Release";
+		};
+		6666AA5E688052234F6758D8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				ENABLE_BITCODE = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "Control";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "Control";
+			};
+			name = "Release";
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"3AA6C32AC930069E80220CF1",
+				"339EE1B2CC4FC24589A0EA95");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+		6CC3B5D2136C7CD6A5CF5A59 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"77418F46922677BB04ED38DD",
+				"6666AA5E688052234F6758D8");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+		6DB9C3763D02B1415CD9D565 = {
+			hasScannedForEncodings = 1;
+			compatibilityVersion = "Xcode 3.2";
+			isa = PBXProject;
+			mainGroup = "E8C543AB96796ECAA2E65C57";
+			productRefGroup = "FE0A091FDBFB3E9C31B7A1BD";
+			buildConfigurationList = "DAC4C1AA5EDEA1C85E9CA5E6";
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"3FEAD01DDD32F8AE03E83763",
+				"035F81DCED8C04318CC9B31D");
+			attributes = {
+				TargetAttributes = {
+				};
+			};
+		};
+	};
+	rootObject = "6DB9C3763D02B1415CD9D565";
+}

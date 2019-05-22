@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>background.jpg</file>
+        <file>daisy-flower-with-bee-background-vector-20685265.jpg</file>
+        <file>researcher.jpg</file>
+        <file>warning.jpg</file>
+        <file>warning2.png</file>
+    </qresource>
+</RCC>
