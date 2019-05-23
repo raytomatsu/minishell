@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "user.h": "c",
+        "readin.h": "c"
+    }
+}
